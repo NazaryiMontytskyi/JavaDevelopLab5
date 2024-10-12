@@ -9,6 +9,13 @@ import ExecPackage.ExecutableClass;
 
 public class App {
     public static void main(String[] args) throws Exception {
+		int myOrderNumber = 13;
+		
+		System.out.println("---------------------------");
+		System.out.println("C13 = " + (myOrderNumber % 13));
+		System.out.println("---------------------------");
+
+		
         ExecutableClass execClass = new ExecutableClass();
         execClass.run();
     }
